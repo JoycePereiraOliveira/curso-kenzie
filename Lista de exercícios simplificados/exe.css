@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 2%;
+    margin-top: 60px;
+}
+
+.exercicio {
+    display: inline-block;
+    height: 25px;
+    width: 25%;
+    text-align: center;
+    padding-top: 0.5%;
+    color: black;
+    background-color: bisque;
+}
+
+.borda {
+    background-color: bisque;
+    color: black;
+    height: 50px;
+    margin-right: 54.5%;
+    margin-left: 33.5%;
+    margin-top: 50px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+}
+
+.texto {
+    display: inline-block;
+    margin-top: 35px;
+    background-color: bisque;
+}
+
+.fonte-tamanho {
+    font-size: 3em;
+}
