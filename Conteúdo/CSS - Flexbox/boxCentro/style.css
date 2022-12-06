@@ -1,0 +1,57 @@
+.container {
+    height: 80vh;
+    width: 40%;
+    margin: 2.5%;
+    margin-left: 32%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    color: #fff;
+    padding: 6.5%;
+    height: 30px;
+    width: 100px;
+    font-size: larger;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.primeiro {
+    background-color: #65e1cf;
+}
+
+.segundo {
+    background-color: #ed5781;
+}
+
+.terceiro {
+    background-color: #79e97d;
+}
+
+.quarto {
+    background-color: #dceec8;
+}
+
+.quinto {
+    background-color: #f58f2d;
+}
+
+.sexto {
+    background-color: #65e1cf;
+}
+
+.setimo {
+    background-color: #79e97d;
+}
+
+.oitavo {
+    background-color: #ed5781;
+}
+
+.nono {
+    background-color: #f58f2d ;
+}
