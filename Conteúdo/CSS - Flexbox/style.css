@@ -1,0 +1,34 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CCCCCC;
+}
+
+h1 {
+    color: #fff;
+}
+.container {
+    color: #fff;
+    background-color: #5cb9de;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-direction: row;
+    display: inline-flex;
+    margin: 10px;
+    color: #fff;
+}
+.frontend {
+    border-bottom: 1px solid #fff;
+}
+
+:hover > .box{
+    cursor: pointer;
+}
