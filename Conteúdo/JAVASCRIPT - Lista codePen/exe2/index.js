@@ -12,9 +12,9 @@ let __________ = "_________";
 alert('Meu nome completo é: ' + primeiroNome + ' ' + ultimoNome);
 
 
-// if (primeiroNome !== undefined && ultimoNome !== undefined) {
-//   const mensagemTag = document.getElementById('mensagem');
-//   const mensagem = "Muito bem, " + primeiroNome + " " + ultimoNome + "! Você acertou!";
-//   mensagemTag.innerText = mensagem;
-//   mensagemTag.classList.remove('hidden');
-// }
+if (primeiroNome !== undefined && ultimoNome !== undefined) {
+  const mensagemTag = document.getElementById('mensagem');
+  const mensagem = "Muito bem, " + primeiroNome + " " + ultimoNome + "! Você acertou!";
+  mensagemTag.innerText = mensagem;
+  mensagemTag.classList.remove('hidden');
+}
