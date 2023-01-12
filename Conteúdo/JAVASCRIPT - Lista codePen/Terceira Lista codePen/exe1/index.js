@@ -9,8 +9,8 @@ return num1 * num2;
   
 // Descomente o código abaixo para testar sua função
 alert(multiplica(3,2))
-  
-  
+
+
 //NÃO ALTERE O CÓDIGO A SEGUIR.
 function testFunction() {
 let result = multiplica(2,2);
