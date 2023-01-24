@@ -1,0 +1,34 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 4%;
+}
+.exercicios_button {
+    display: flex;
+    margin-top: 1%;
+    flex-direction: column;   
+    flex-wrap: wrap;
+    width: 9%;
+    padding-left: 44%;
+}
+
+button {
+    margin-top: 1.5%;
+    width: 9vmax;
+    background-color: rgb(232, 172, 116);
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.segunda-lista-codePen {
+    margin-top: 10%;
+    background-color: rgb(255, 60, 0);
+}
+.terceira-lista-codePen {
+    margin-top: 9%;
+    background-color: rgb(255, 60, 0);
+}
+.quarta-lista-codePen {
+    margin-top: 9%;
+    background-color: rgb(255, 60, 0);
+}
