@@ -13,14 +13,9 @@ h1 {
 }
 
 button {
-    margin-top: 1.5%;
+    margin-top: 2%;
     width: 9vmax;
     background-color: rgb(232, 172, 116);
     border: 1px solid black;
     border-radius: 3%;
-}
-
-.segunda-lista-arrays-codePen {
-    margin-top: 7%;
-    background-color: rgb(255, 60, 0);
 }
