@@ -1,70 +1,88 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 50px;
+/* CSS => Cascading StyleSheet(Folha de estilo em cascata)
+
+Estrutura
+
+Regra CSS:
+seletor {
+    propriedade: valor; -> declaração
 }
 
-.container {
+CSS BEM
+
+B -> Bloco
+E -> Elemento
+M -> Modificador
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* BODY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     display: flex;
+
+    /* margin-top: 50px;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+    margin: top right bottom left;
+    margin: top right/left bottom;
+    margin: top/bottom right/left;
+    margin: todos os lados; */
 }
 
+/* CABEÇALHO */
 .cabecalho{
     flex-basis: 30%;
 }
-
-.cabecalho__logo {
+.cabecalho__logo{
     margin-bottom: 50px;
 }
-
-.cabecalho__logo img {}
-.cabecalho__logo figcaption {
+.cabecalho__logo img{}
+.cabecalho__logo figcaption{
     display: none;
 }
 
-.cabecalho__menuNavegacao {}
-.cabecalho__menuLista {
-    font-weight: bold;
-}
-
-.cabecalho__menuItem {
+.cabecalho__menuNavegacao{}
+.cabecalho__menuLista{}
+.cabecalho__menuItem{
     margin-bottom: 25px;
 }
-
-.cabecalho__menuItem img {
+.cabecalho__menuItem img{
     max-width: 26px;
-    border-radius: 20px;
 }
-.cabecalho__menuItem a {
+.cabecalho__menuItem a{
     color: #000;
     text-decoration: none;
     font-size: 22px;
     vertical-align: top;
-    cursor: pointer;
-}
-a:hover{
-    color:#1da1f2;
 }
 
-.conteudoPrincipal {
+
+/* CONTEÚDO PRINCIPAL */
+.conteudoPrincipal{
     flex-basis: 70%;
     border-left: 1px solid #e7ecf0;
     border-right: 1px solid #e7ecf0;
 }
-
-.conteudoPrincipal__titulo {
-    font-weight: bold;
+.conteudoPrincipal__titulo{
     padding: 10px 30px;
 }
 
-.conteudoPrincipal__formulario {
+.conteudoPrincipal__formulario{
     padding: 10px 30px;
     border-top: 1px solid #e7ecf0;
     border-bottom: 10px solid #e7ecf0;
     text-align: right;
 }
-.conteudoPrincipal__formulario textarea {
+.conteudoPrincipal__formulario textarea{
     display: block;
     width: 100%;
     border: none;
@@ -72,58 +90,38 @@ a:hover{
     resize: none;
     height: 55px;
 }
-.conteudoPrincipal__formulario button {
+.conteudoPrincipal__formulario button{
     background-color: #1da1f2;
     border: none;
     padding: 8px 20px;
     color: #fff;
     border-radius: 20px;
-    cursor: pointer;
 }
 
-button:hover{
-    background-color: #1da1f2;
-    opacity: 0.4;
-}
-.conteudoPrincipal__feed {}
-.conteudoPrincipal__listaTweets {
+.conteudoPrincipal__feed{}
+.conteudoPrincipal__listaTweets{
     display: flex;
     flex-flow: column-reverse nowrap;
 }
-.conteudoPrincipal__tweet {
+.conteudoPrincipal__tweet{
     padding: 20px 32px;
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid #e7ecf0;
 }
 
-.tweet__fotoPerfil {
-    border-radius: 20px;
-}
-.tweet__conteudo {
+.tweet__fotoPerfil{}
+.tweet__conteudo{
     margin-left: 15px;
-    
 }
-.tweet__conteudo h2 {
-    font-weight: bold;
+.tweet__conteudo h2{
     display: inline-block;
 }
-.tweet__conteudo img{
-    vertical-align: text-bottom;
-}
-.tweet__conteudo span {
+.tweet__conteudo span{
     display: inline-block;
     color: #828282;
-    
 }
-.tweet__conteudo p {
+.tweet__conteudo p{
     margin-top: 15px;
     color: #333333;
-    text-decoration: #1da1f2;
-    line-height: 25px;
-}
-.tweet__conteudo a {
-    text-decoration: none;
-    color: #1da1f2;
-    vertical-align: middle;
 }

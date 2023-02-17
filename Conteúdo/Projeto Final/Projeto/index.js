@@ -40,13 +40,13 @@ function listarTemplateTweet(tweet){
     const {nome, foto, usuario, texto, tempo} = tweet
 
     let li = document.createElement("li");
-    li.classList.add("conteudoPrincipal__tweet")
+    li.classList.add("conteudoPrincipal__tweet");
     let img = document.createElement("img");
     img.src = foto
-    img.classList.add("tweet__fotoPerfil")
+    img.classList.add("tweet__fotoPerfil");
 
     let div = document.createElement("div");
-    div.classList.add("tweet__conteudo")
+    div.classList.add("tweet__conteudo");
     let h2 = document.createElement("h2");
     h2.innerText = nome
 
@@ -63,5 +63,5 @@ function listarTemplateTweet(tweet){
     li.appendChild(img)
     li.appendChild(div)
     feed.appendChild(li)
-    textarea.value = ""
+    textarea.value = "";
 }
