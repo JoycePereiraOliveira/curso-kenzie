@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Final</title>
+</head>
+<body>
+    
+    <div class="container">
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <!-- IMAGEM LOGO -->
+
+        <figure class="cabecalho__logo">
+            <img src="img/bird 1.svg" alt="">
+            <figcaption hidden>Logo Projeto Final</figcaption>
+        </figure>
+
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav class="cabecalho__menuNavegacao">
+            
+            <!-- LISTA DE LINKS -->
+            <ul class="cabecalho__menuLista">
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Home.png" alt="">
+                    <a href="">Página Inicial</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Hashtag.png" alt="">
+                    <a href="">Explorar</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Notification.png" alt="">
+                    <a href="">Notificações</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Group.png" alt="">
+                    <a href="">Mensagens</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Group (1).png" alt="">
+                    <a href="">Itens salvos</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Group (2).png" alt="">
+                    <a href="">Listas</a>
+                </li>
+                
+                <li class="cabecalho__menuItem">
+                    <img src="img/ProfilePic.png" alt="">
+                    <a href="">Perfil</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="img/Group (3).png" alt="">
+                    <a href="">Mais</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="conteudoPrincipal">
+        <h3 class="conteudoPrincipal__titulo">Home</h3>
+
+        <!-- FORMULÁRIO -->
+        <form action="#" class="conteudoPrincipal__formulario">
+            <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+            
+            <button type="submit">Tweetar</button>
+        </form>
+
+        <!-- FEED DE NOTÍCIAS -->
+        <section class="conteudoPrincipal__feed">
+
+            <!-- LISTA DE NOTÍCIAS -->
+            <ul class="conteudoPrincipal__listaTweets">
+                <!-- NOTÍCIA -->
+                <li class="conteudoPrincipal__tweet">
+                    <!-- IMAGEM DO USUÁRIO -->
+                    <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt="Joyce">
+                    
+                    <!-- CAIXA DE INFORMAÇÕES DO USUÁRIO -->
+                    <div class="tweet__conteudo">
+                        <h2>Joyce</h2>
+                        <span>@joyoliveiiraa 19s</span>
+                        <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, 
+                            até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. 
+                            É hora de se preparar... #VouSerDev #DoZeroAoCodigo</p>
+                    </div>
+                    <li class="conteudoPrincipal__tweet">
+                        <!-- IMAGEM DO USUÁRIO -->
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt="Joyce">
+                        
+                        <!-- CAIXA DE INFORMAÇÕES DO USUÁRIO -->
+                        <div class="tweet__conteudo">
+                            <h2>Joyce</h2>
+                            <span>@joyoliveiiraa 19s</span>
+                            <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, 
+                                até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. 
+                                É hora de se preparar... #VouSerDev #DoZeroAoCodigo</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <!-- IMAGEM DO USUÁRIO -->
+                        <img class="tweet__fotoPerfil" src="img/ProfilePic.png" alt="Joyce">
+                        
+                        <!-- CAIXA DE INFORMAÇÕES DO USUÁRIO -->
+                        <div class="tweet__conteudo">
+                            <h2>Joyce</h2>
+                            <span>@joyoliveiiraa 19s</span>
+                            <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, 
+                                até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. 
+                                É hora de se preparar... #VouSerDev #DoZeroAoCodigo</p>
+                        </div>
+                    </li>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+</div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
